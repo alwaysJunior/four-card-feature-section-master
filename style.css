@@ -58,7 +58,8 @@ header h2 {
 header p {
     font-weight: 300;
     width: 100%;
-    max-width: 550px;
+    max-width: 320px;
+    letter-spacing: 0.3px;
     margin: 0 auto;
 }
 /*Header*/
@@ -118,6 +119,9 @@ header p {
         grid-template-columns: repeat(2,350px);
         column-gap: 20px;
         justify-content: center;
+    }
+    header p {
+        max-width: 550px;
     }
 }
 @media(min-width:1200px){
